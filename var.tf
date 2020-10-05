@@ -2,7 +2,7 @@
 // module section
 variable "name" {
   type = string
-  default = "kkotov"
+  default = "kiram"
   }
 variable "resource_group" {
   type = string
