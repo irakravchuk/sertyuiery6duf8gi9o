@@ -7,7 +7,7 @@ resource "azurerm_network_interface" "main" {
   name                = var.name
   location            = var.region
   resource_group_name = var.resource_group
-  tags = merge({ "Name" = format("k.kotov-test -> %s", substr ("🤔🤷", 0,1)) }, var.tags)
+  tags = merge({ "Name" = format("i.kravchuk-test -> %s", substr ("🤔🤷", 0,1)) }, var.tags)
 
   ip_configuration {
     name                          = var.name
